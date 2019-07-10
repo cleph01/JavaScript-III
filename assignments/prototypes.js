@@ -60,10 +60,11 @@ function Humanoid(Grandchildattribute){
   this.weapons = Grandchildattribute.weapons;
   this.language = Grandchildattribute.language;
 
+  
   Humanoid.prototype.greet = function(){
     return `${this.name} offers a greeting in ${this.language}.`;
   }
-  
+
 }
 
 
